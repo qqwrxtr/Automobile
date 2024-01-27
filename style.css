@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.name{
+    font-size: 25px;
+    color: rgb(1, 1, 57);
+}
+
+.but button{
+    width: 170px;
+    height: 30px;
+    background-color: rgb(217, 141, 1);
+    border: 0;
+    font-size: 16px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.search{
+    font-size: 25px;
+    
+}
+
+.search span{
+    color: rgb(1, 1, 57);
+    font-weight: 900;
+}
+
+.color{
+    color: rgb(1, 1, 57);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wid{
+    width: 250px;
+}
+
+.lol select {
+    width: 100px;
+    height: 30px;
+}
+
+.max select{
+    width: 100%;
+    height: 30px;
+    border: 0;
+}
+
+.first__col{
+    margin-right: 150px;
+}
+
+.second__col{
+    width: 900px;
+}
+
+.gap{
+    margin: 10px 0;
+}
+
+.gap select{
+    margin: 5px 0;
+}
+
+.mainblock{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.img img{
+    width: 250px;
+    height: 166px;
+    border-radius: 2px;
+}
+
+.car{
+    display: flex;
+}
+
+.nume{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.car__name{
+    font-size: 30px;
+}
+
+.seller{
+    color: gray;
+    font-size: 17px;
+}
+
+.seller span{
+    font-weight: 700;
+}
+
+.orange{
+    color: orange;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.details{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: gray;
+
+}
+
+.vezi_det button{
+    border: 0;
+    cursor: pointer;
+    color: gray;
+}
+
+.vezi_det span{
+    color: orange;
+}
+
+.gap select{
+    border: 0.1px solid gray;
+    outline: none;
+}
+
+.marg{
+    margin-top: 24px;
+}
+
+.margin{
+    padding-top: 50px;
+}
+
+.cauta button{
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(1, 1, 57);
+    color: white;
+}
+
+.cauta{
+    margin-top: 25px;
+}
